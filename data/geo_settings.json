@@ -1,0 +1,26 @@
+{
+  "GB": {
+    "language": "English",
+    "currency_symbol": "£",
+    "bonus_text": "Get a £20 welcome bonus",
+    "market_wording": "football accumulator odds"
+  },
+  "FR": {
+    "language": "French",
+    "currency_symbol": "€",
+    "bonus_text": "Profitez de 20€ de bonus de bienvenue",
+    "market_wording": "cotes combinées football"
+  },
+  "DE": {
+    "language": "German",
+    "currency_symbol": "€",
+    "bonus_text": "Sichere dir 20€ Willkommensbonus",
+    "market_wording": "Fußball Kombi-Quoten"
+  },
+  "PT": {
+    "language": "Portuguese",
+    "currency_symbol": "€",
+    "bonus_text": "Recebe 20€ de bónus de boas-vindas",
+    "market_wording": "odds acumuladas de futebol"
+  }
+}
