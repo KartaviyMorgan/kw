@@ -1,0 +1,21 @@
+{
+  "hero": [
+    {
+      "id": "hero_a",
+      "weight": 3,
+      "template": "High-impact sports poster for {{match_name}} in {{league}} on {{date}}. GEO {{geo}} language {{language}}. Use {{market_wording}} messaging. Include callout: '{{bonus_text}}' with {{currency_symbol}} styling."
+    },
+    {
+      "id": "hero_b",
+      "weight": 1,
+      "template": "Dynamic betting ad visual: {{team1}} vs {{team2}}, {{league}}, {{country}}, {{date}}. Localized for {{geo}} ({{language}}). Highlight {{bonus_text}} and premium {{currency_symbol}} typography."
+    }
+  ],
+  "clean": [
+    {
+      "id": "clean_a",
+      "weight": 1,
+      "template": "Minimal sports betting creative. Match: {{team1}} vs {{team2}}. League: {{league}}. Date: {{date}}. Market phrase: {{market_wording}}. GEO {{geo}} localized bonus: {{bonus_text}}."
+    }
+  ]
+}

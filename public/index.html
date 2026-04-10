@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sports Prompt Generator</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; max-width: 980px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    label { font-weight: 600; display: block; margin-bottom: 6px; }
+    select, input, textarea, button { width: 100%; padding: 8px; box-sizing: border-box; }
+    .full { grid-column: 1 / -1; }
+    pre { background:#f5f5f5; padding: 12px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Sports Betting Prompt Generator</h1>
+  <div class="grid">
+    <div>
+      <label for="match">Match</label>
+      <select id="match"></select>
+    </div>
+    <div>
+      <label for="category">Template category</label>
+      <select id="category"></select>
+    </div>
+    <div>
+      <label for="template">Template ID (optional)</label>
+      <input id="template" placeholder="hero_a" />
+    </div>
+    <div>
+      <label for="geos">GEOs (Ctrl/Cmd+click multi)</label>
+      <select id="geos" multiple size="4"></select>
+    </div>
+    <div>
+      <label><input type="checkbox" id="weighted" checked /> Weighted random</label>
+      <label><input type="checkbox" id="qualityLock" checked /> Quality lock section</label>
+    </div>
+    <div class="full">
+      <button id="generate">Generate prompts</button>
+    </div>
+    <div class="full">
+      <label for="csv">CSV import (team1,team2,league,country,sport,date)</label>
+      <textarea id="csv" rows="5"></textarea>
+      <button id="parseCsv">Parse CSV</button>
+    </div>
+    <div class="full">
+      <h3>Output</h3>
+      <pre id="output"></pre>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

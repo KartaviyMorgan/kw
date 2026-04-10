@@ -1,0 +1,14 @@
+{
+  "name": "kw-prompt-generator",
+  "version": "1.0.0",
+  "description": "Sports betting prompt generation engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check": "node --check server.js && node --check src/services/promptGenerator.js && node --check src/services/csvService.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

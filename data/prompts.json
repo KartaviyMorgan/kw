@@ -1,0 +1,22 @@
+{
+  "matches": [
+    {
+      "id": "m1",
+      "team1": "Arsenal",
+      "team2": "Chelsea",
+      "league": "Premier League",
+      "country": "England",
+      "sport": "Football",
+      "date": "2026-05-02"
+    },
+    {
+      "id": "m2",
+      "team1": "PSG",
+      "team2": "Marseille",
+      "league": "Ligue 1",
+      "country": "France",
+      "sport": "Football",
+      "date": "2026-05-08"
+    }
+  ]
+}
